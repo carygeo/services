@@ -51,7 +51,7 @@ about_profile_image: images/cary_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   **From NASA JPL Mission-Critical Systems to Enterprise AI Innovation**
 
-  My journey in cutting-edge technology began at NASA JPL's Physical Oceanography DAAC, where I worked alongside teams supporting Mars missions and deep space exploration. There, I learned the rigorous engineering discipline required for systems where failure isn't an option - architecting robust CI/CD pipelines, implementing NASA's stringent data governance protocols, and developing tools that enabled scientists to process petabyte-scale satellite data with unprecedented efficiency.
+  My expertise in cutting-edge technology was profoundly enhanced during my time at NASA JPL's Physical Oceanography DAAC, where I worked alongside teams supporting Mars missions and deep space exploration. There, I mastered the rigorous engineering discipline required for systems where failure isn't an option - architecting robust CI/CD pipelines, implementing NASA's stringent data governance protocols, and developing tools that enabled scientists to process petabyte-scale satellite data with unprecedented efficiency.
 
   This foundation in mission-critical systems engineering now drives my approach to AI/ML solutions. I specialize in designing enterprise-scale RAG architectures, spatial AI systems, and intelligent document processing platforms that combine the reliability demanded by space exploration with the innovation required by modern business. From pioneering hexagonal spatial indexing systems to implementing advanced LLM integrations for the US Army Corps of Engineers, I bring NASA-grade engineering excellence to every project.
 
