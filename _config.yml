@@ -1,0 +1,206 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Cary Greenwood
+title: AI/ML Engineering & Data Architecture Consultant
+email: carygreenwood@gmail.com
+phone: 510-566-8568
+website: https://carygeo.github.io/services
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  carygeo
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: carywgreenwood
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: <b>About Me</b>
+about_profile_image: images/cary_photo.jpg
+about_content: | # this will include new lines to allow paragraphs
+  **From NASA JPL Mission-Critical Systems to Enterprise AI Innovation**
+
+  My journey in cutting-edge technology began at NASA JPL's Physical Oceanography DAAC, where I worked alongside teams supporting Mars missions and deep space exploration. There, I learned the rigorous engineering discipline required for systems where failure isn't an option - architecting robust CI/CD pipelines, implementing NASA's stringent data governance protocols, and developing tools that enabled scientists to process petabyte-scale satellite data with unprecedented efficiency.
+
+  This foundation in mission-critical systems engineering now drives my approach to AI/ML solutions. I specialize in designing enterprise-scale RAG architectures, spatial AI systems, and intelligent document processing platforms that combine the reliability demanded by space exploration with the innovation required by modern business. From pioneering hexagonal spatial indexing systems to implementing advanced LLM integrations for the US Army Corps of Engineers, I bring NASA-grade engineering excellence to every project.
+
+  Today, I help organizations transform their most complex data challenges into competitive advantages through scalable AI solutions, always applying the lessons learned from supporting humanity's boldest endeavors - where precision, reliability, and innovation converge.
+
+  **Core Philosophy**: <mark>Mission-Critical Reliability</mark> • <mark>Innovation Through Rigor</mark> • <mark>Scalable Excellence</mark>
+
+content:
+  - title: <b>Core Competencies</b> # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ### Technical Excellence
+      **AI/ML Technologies**: LangChain, LlamaIndex, Haystack • Vector Databases • RAG Systems • Prompt Engineering • Fine-tuning
+      **Cloud & Infrastructure**: AWS (Full Stack) • Azure • Databricks • Serverless Architecture • Microservices • Docker/Kubernetes
+      **Data Engineering**: Apache Spark • Python • Real-time Processing • ETL/ELT • Data Lakes • Stream Processing
+      **Geospatial Technologies**: ESRI ArcGIS Suite • Map Services • QGIS • PostGIS • GDAL • Remote Sensing • Spatial Analysis • H3
+      **Development**: Python • SQL • JavaScript • Git • CI/CD • Infrastructure as Code • API Design
+
+      ### Strategic Capabilities
+      **Solution Architecture**: System design for scalability, reliability, and maintainability
+      **Technical Leadership**: Cross-functional team coordination and mentorship
+      **Innovation Management**: R&D strategy, proof-of-concept development, and technology evaluation
+      **Business Alignment**: Translating complex business requirements into elegant technical solutions
+
+  - title: <b>Consulting Approach</b> # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ### 1. Discovery & Analysis
+      I begin every engagement with a comprehensive assessment of your current technology landscape, business objectives, and challenges. This data-driven approach ensures solutions are tailored to your specific needs and constraints.
+
+      ### 2. Agile Implementation
+      Using proven methodologies, I deliver value incrementally through rapid prototyping, continuous feedback, and iterative improvement. This minimizes risk while maximizing learning and adaptation throughout the project lifecycle.
+
+      ### 3. Knowledge Transfer
+      Beyond implementation, I ensure your team has the skills and understanding to maintain and evolve the solutions. Documentation, training, and hands-on mentorship are integral parts of every engagement.
+
+      ### 4. Continuous Innovation
+      Technology evolves rapidly. I help organizations stay ahead through ongoing optimization, emerging technology integration, and strategic technical guidance tailored to your evolving needs.
+
+  - title: <b>Notable Projects</b> # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: ChatDQM - Intelligent Knowledge Management System
+        sub_title: US Army Corps of Engineers
+        caption: 2024
+        quote: >
+          Transforming document query capabilities through advanced AI/ML technologies
+        description: | # this will include new lines to allow paragraphs
+          Led the development of ChatDQM, an advanced RAG-based system that revolutionized USACE's document query and knowledge management capabilities:
+          
+          • **Metadata-Enhanced RAG Architecture**: Implemented expanded vector schemas with intelligent metadata filtering, improving response quality from basic summaries to professional-grade, authoritative outputs
+          • **Performance Optimization**: Achieved >50% reduction in token usage while enhancing accuracy through semantic-aware filtering
+          • **Evaluation Framework**: Developed comprehensive RAG evaluation harness with retrieval, response quality, and attribution metrics
+          • **Enterprise Integration**: Built prototype Databricks SQL connector enabling natural language queries across structured and unstructured data
+          • **Impact**: Elevated information retrieval to operational standards, establishing measurable trust metrics for continuous improvement
+
+      - layout: top-middle
+        title: Hexlex - Advanced Spatial Reasoning Server
+        sub_title: Lead Developer & Project Manager
+        caption: 2024-Present
+        quote: >
+          Bridging traditional GIS with modern AI through novel hexagonal spatial indexing
+        description: | # this will include new lines to allow paragraphs
+          Created and lead the development of Hexlex, an innovative Model Context Protocol (MCP) server that revolutionizes spatial computing through advanced hexagonal indexing and AI integration:
+          
+          • **Novel H3-Based Architecture**: Pioneered hybrid approach combining Uber's H3 hexagonal indexing with automatic knowledge graph generation, achieving 10x faster spatial operations
+          • **Performance Breakthrough**: Delivered 85% I/O reduction, 70% faster query processing, and 50% storage optimization through columnar Parquet format with intelligent compression
+          • **AI-Native Spatial Reasoning**: Integrated pgvector for semantic search with spatial operations, enabling natural language GIS queries with <0.5ms coordinate conversion
+          • **Enterprise Deployment**: Designed single-command deployment system with Docker orchestration, supporting both cloud and on-premise installations
+          • **QGIS Integration**: Developed native plugin enabling real-time hexagonal visualization and interactive spatial analysis within existing GIS workflows
+          • **Technical Innovation**: Combined DuckDB analytics with PostgreSQL/pgvector, processing 2,000+ features/second with 250MB memory footprint for 1M features
+
+  - title: <b>Professional Services</b> # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: AI/ML System Architecture & Implementation
+        quote: >
+          End-to-end design and deployment of enterprise-scale artificial intelligence solutions
+        description: | # this will include new lines to allow paragraphs
+          • **Large Language Model (LLM) Integration**: Custom RAG architectures, prompt engineering, and fine-tuning strategies
+          • **Intelligent Document Processing**: Advanced document cracking, semantic search, and knowledge extraction systems
+          • **Model Context Protocol (MCP)**: Seamless integration of AI capabilities into existing enterprise applications
+          • **Multi-Modal AI Solutions**: Computer vision, NLP, and hybrid systems for complex business challenges
+
+      - layout: top-middle
+        title: Data Engineering & Cloud Architecture
+        quote: >
+          Scalable infrastructure design for petabyte-scale data processing and real-time analytics
+        description: | # this will include new lines to allow paragraphs
+          • **Cloud-Native Solutions**: AWS, Azure, and Databricks architectures optimized for cost and performance
+          • **Real-Time Data Pipelines**: Stream processing, event-driven architectures, and sensor data integration
+          • **Big Data Analytics**: Apache Spark optimization, distributed computing, and data lake design
+          • **DevOps & CI/CD**: Infrastructure as code, automated testing, and continuous deployment strategies
+
+      - layout: top-middle
+        title: Geospatial Intelligence & Analytics
+        quote: >
+          Bridging the gap between spatial data and actionable business intelligence
+        description: | # this will include new lines to allow paragraphs
+          • **Spatial AI Integration**: Natural language interfaces for GIS platforms and spatial reasoning systems
+          • **Remote Sensing Analytics**: Satellite imagery processing, change detection, and predictive modeling
+          • **Location Intelligence**: H3 indexing, spatial optimization, and geographic pattern recognition
+          • **Enterprise GIS Solutions**: PostGIS, ArcGIS integration, ESRI map services, and custom geospatial applications
+
+
+  - title: <b>Industry Experience</b> # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Government & Defense**: US Army Corps of Engineers, NASA JPL
+      **Technology & Data**: UberMedia, Databricks ecosystem
+      **Real Estate & PropTech**: Market analysis and automation systems
+      **Financial Services**: Algorithmic trading and risk analysis
+      **Engineering & Infrastructure**: Arup global projects
+      **Research & Academia**: Scientific computing and oceanographic systems
+
+  - title: <b>Certifications</b> # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Databricks Generative AI Solution Development** - 2025
+      - RAG architecture, data preparation for AI solutions, context embedding, vectors, vector databases, and Mosaic AI Vector Search
+      
+      **CompTIA Security+** - 2024
+      - Foundational cybersecurity credential validating knowledge in network security, threat management, compliance, access control, cryptography, and incident response
+
+  - title: <b>Contact & Connect</b> # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Ready to transform your data challenges into competitive advantages?**
+      
+      Let's discuss how I can help your organization leverage cutting-edge AI/ML technologies to achieve your business goals.
+      
+      📧 **Email**: carygreenwood@gmail.com  
+      📱 **Phone**: 510-566-8568  
+      💼 **LinkedIn**: [carywgreenwood](https://www.linkedin.com/in/carywgreenwood/)  
+      🌐 **GitHub**: [carygeo](https://github.com/carygeo)  
+      📍 **Location**: Cape Coral, FL (Remote engagements welcome)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
